@@ -5,7 +5,7 @@ public class Main {
         Product info = new Product("Glasses", 3000);
 
         info.printInfo();
-        info.applyDiscount(200);
+        info.applyDiscount(20);
         info.printInfo();
     }
 }

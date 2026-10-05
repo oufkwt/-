@@ -2,9 +2,9 @@ package Homework_1.practice_9;
 
 public class Product {
     private String name;
-    private int price;
+    private double price;
 
-    public Product(String name, int price) {
+    public Product(String name, double price) {
         this.name = name;
         this.price = price;
     }
@@ -12,16 +12,16 @@ public class Product {
     public String getName() {
         return name;
     }
-    public int getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 
-    public void applyDiscount(int discount) {
-        price = price - discount;
+    public void applyDiscount(double discount) {
+        price = price - price * discount / 100.0;
     }
     public void printInfo() {
         System.out.println("Product name: " + name + "\nPrice " + name + ": " + price);

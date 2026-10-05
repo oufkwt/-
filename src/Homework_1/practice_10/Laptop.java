@@ -2,9 +2,9 @@ package Homework_1.practice_10;
 
 public class Laptop {
     private String brand;
-    private int price;
+    private double price;
 
-    public Laptop(String brand, int price) {
+    public Laptop(String brand, double price) {
         this.brand = brand;
         this.price = price;
     }
@@ -12,13 +12,13 @@ public class Laptop {
     public String getBrand() {
         return brand;
     }
-    public int getPrice() {
+    public double getPrice() {
         return price;
     }
     public void setBrand(String brand) {
         this.brand = brand;
     }
-    public void setPrice(int price) {
+    public void setPrice(double price) {
         this.price = price;
     }
     public void printInfo() {

@@ -7,9 +7,7 @@ public class Main {
 
         //изменить ширину сеттером
         System.out.println("До изменения: " + rect.calculateArea());
-        rect.calculateArea();
         rect.setWidth(2);
         System.out.println("После изменений: " + rect.calculateArea());
-        rect.calculateArea();
     }
 }
