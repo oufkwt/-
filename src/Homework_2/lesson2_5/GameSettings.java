@@ -1,22 +1,22 @@
 package Homework_2.lesson2_5;
 
-public class GameSetting {
+public class GameSettings {
     static int maxPlayers = 10;
     final String gameName;
     int currentPlayers;
 
     //констурктор
-    public GameSetting(String gameName, int currentPlayers){
+    public GameSettings(String gameName, int currentPlayers){
         this.currentPlayers = currentPlayers;
         this.gameName = gameName;
     }
 
     //сеттер макс игроков
     public static void setMaxPlayers(int maxPlayers){
-        GameSetting.maxPlayers = maxPlayers;
+        GameSettings.maxPlayers = maxPlayers;
     }
     //добавление + игрока
-    public void addPlayers(){
+    public void addPlayer(){
         currentPlayers++;
     }
 

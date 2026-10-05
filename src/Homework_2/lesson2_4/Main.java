@@ -14,6 +14,6 @@ public class Main {
         student3.printStudentInfo();
 
         //проверка, что final не меняется:
-      //  student1.studentID; - ошибка
+      //  student1.studentID = 9; - ошибка
     }
 }
